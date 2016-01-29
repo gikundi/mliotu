@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Home" >
+
+     <Button
+         android:id="@+id/btnAddfruits"
+         style="@style/button"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/btnUpdateFruits"
+         android:layout_alignParentTop="true"
+         android:layout_marginTop="32dp"
+         android:text="Add Fruits" />
+
+     <Button
+         android:id="@+id/btnUpdateFruits"
+         style="@style/button"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/btnPurchasefruits"
+         android:layout_below="@+id/btnAddfruits"
+         android:layout_marginTop="26dp"
+         android:text="Update Fruits" />
+
+     <Button
+         android:id="@+id/btnPurchasefruits"
+         style="@style/button"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/btnUpdateFruits"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="24dp"
+         android:text="Purchase Fruits" />
+
+     <Button
+         android:id="@+id/btnprintreceipt"
+         style="@style/button"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/btndeletefruits"
+         android:layout_below="@+id/btndeletefruits"
+         android:layout_marginTop="28dp"
+         android:text="Print Receipt" />
+
+     <Button
+         android:id="@+id/btndeletefruits"
+         style="@style/button"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/btnPurchasefruits"
+         android:layout_below="@+id/btnPurchasefruits"
+         android:layout_marginTop="25dp"
+         android:text="Delete Fruits" />
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Rmi</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_add_fruit">AddFruit</string>
+    <string name="title_activity_update_fruit">UpdateFruit</string>
+    <string name="title_activity_delete_fruit">DeleteFruit</string>
+    <string name="title_activity_purchase_fruit">PurchaseFruit</string>
+    <string name="add_fruit">Add Fruit</string>
+    <string name="title_activity_print">Print</string>
+
+</resources>

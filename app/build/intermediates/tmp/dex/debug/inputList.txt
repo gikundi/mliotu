@@ -1,0 +1,2 @@
+/home/gikundi/Downloads/Rmi1/app/build/intermediates/classes/debug
+/home/gikundi/Downloads/Rmi1/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-0e3736d95a9ce766974acbd7c2c4436ffd650932.jar
